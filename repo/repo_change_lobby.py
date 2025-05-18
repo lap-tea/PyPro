@@ -37,3 +37,4 @@ else:
     print(rc.CURRENT_LOBBY_SIZE_TEXT,current_lobby_size)
 print(f"Закрытие окна через {rc.EXIT_TIME_SEC} секунд")
 time.sleep(rc.EXIT_TIME_SEC)
+print('new line')
