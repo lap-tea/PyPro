@@ -1,0 +1,12 @@
+PATH = "Path"
+PIP_INSTALL = "python -m ensurepip --upgrade"
+PIP_VERSION = "pip --version"
+PIP_INSTALLED = "Установлен python pip"
+ENV_VAR_EXISTS = "Переменная среды уже существует"
+PYINSTALLER_EXISTS = "pip show pyinstaller"
+PYINSTALLER_INSTALL = "pip install pyinstaller"
+PYINSTALLER_INSTALL_TEXT = "Не обнаружен pyinstaller. Сейчас он будет установлен"
+INSTALL_COMMAND = "pyinstaller --onefile "
+FILE_PATH = r"Введите ссылку на файл в формате 'Диск:\папка\файл.расширение' без кавычек:"
+WRONG_FILE_TEXT = r"Указанный файл не является файлом скрипта Python. Введите ссылку на корректный файл:"
+EXIT_TIME_SEC = 5
